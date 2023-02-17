@@ -24,6 +24,10 @@
   "engines": {
     "node": "v10.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "http://13.212.29.25:9980/mithuntechnologies/repository/nodejsproject/"
+  },
     "keywords": [
     "node",
     "Mithun Technologies",
