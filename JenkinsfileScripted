@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git branch: 'master', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/bhaskar0504/node-js-application.git'
+   git credentialsId: '8dd1ef96-f9f1-4823-9a66-7b56decc81fb', url: 'https://github.com/SomsDevops-Training/nodejs-app-mss.git'
  }
  
  stage("Build")
