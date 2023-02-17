@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
-  "publishconfig": { 
-  "registry": "http://192.168.29.79:9980/repository/node-js/"
-  },
+  //"publishconfig": { 
+  //"registry": "http://192.168.29.79:9980/repository/node-js/"
+  //},
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
    "type": "git",
-   "url": ""
+   "url": "http://192.168.29.79:9980/repository/node-js/"
   },
   "keywords": [
     "node",
