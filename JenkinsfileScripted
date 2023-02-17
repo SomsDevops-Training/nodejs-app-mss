@@ -20,12 +20,12 @@ node
       
         } 
 		
-    stage('UploadintoNexus') {
+    /*stage('UploadintoNexus') {
        nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
           sh 'npm publish'
       }
       
-          }	
+          }*/	
  
  stage('RunNodeJsApp')
  {
